@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="credit.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div class="section hero">
+            <div class="hero-inner">
+                <h2> credit card form</h2>
+                <div class="row">
+                   <div class="ccjs-card ccjs-js-enabled">
+                        <label class="ccjs-number">
+                            Card Number
+                            <input name="card-number" class="ccjs-number ccjs-hidden" placeholder="•••• •••• •••• ••••">
+                            <input class="ccjs-number-formatted" placeholder="•••• •••• •••• ••••" inputmode="numeric" autocomplete="cc-number" autocompletetype="cc-number" x-autocompletetype="cc-number">
+                        </label>
+                        <label class="ccjs-csc">
+                            Security Code
+                            <input name="csc" class="ccjs-csc" placeholder="•••" inputmode="numeric" pattern="\d*" autocomplete="cc-csc" autocompletetype="cc-csc" x-autocompletetype="cc-csc">
+                        </label>
+                        
+                        
+                        <label class="ccjs-name">
+                            Name on Card
+                            <input name="name" class="ccjs-name" autocomplete="cc-full-name" autocompletetype="cc-full-name" x-autocompletetype="cc-full-name">
+                        </label>
+                        <fieldset class="ccjs-expiration">
+                            <legend>Expiration</legend>
+                            <select name="month" class="ccjs-month" autocomplete="cc-exp-month" autocompletetype="cc-exp-month" x-autocompletetype="cc-exp-month">
+                                <option selected="" disabled="">MM</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <select name="year" class="ccjs-year" autocomplete="cc-exp-year" autocompletetype="cc-exp-year" x-autocompletetype="cc-exp-year">
+                                <option selected="" disabled="">YY</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                            </select>
+                        </fieldset>
+                        
+                        
+                    </div>
+                </div><a href="#" class="btn green-btn">Make payment</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

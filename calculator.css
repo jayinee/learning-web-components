@@ -1,0 +1,77 @@
+﻿
+        .maindiv {
+            background-color: #9CD1EA;
+            box-shadow: #009DE4 0px 5px;
+            border-radius: 2px;
+            width: 40%;
+            padding: 1% 0% 2% 0%;
+        }
+
+        .padding {
+            padding: 5% 0% 2% 7%;
+        }
+
+        .row-in {
+            padding: 0% 0% 2% 7%;
+        }
+
+        button {
+            padding: 2% 5% 2% 5%;
+            border: none;
+            border-radius: 2px;
+        }
+
+        input {
+            background-color: #7BA7BB;
+            padding: 2% 2% 4% 2%;
+            border: none;
+            border-radius: 2px;
+            box-shadow: #638696 0px -5px;
+        }
+
+        .pink {
+            /*padding:5% 5% 5% 5%;*/
+            background-color: #FF9FA8;
+            box-shadow: #FF7C87 0px 5px;
+            color: white;
+        }
+
+        .white {
+            background-color: white;
+            box-shadow: #78A7BC 0px 5px;
+        }
+
+        .pink-light {
+            background-color: #FFF0F5;
+            box-shadow: #78A7BC 0px 5px;
+        }
+
+        .yellow {
+            background-color: #F1FF92;
+            box-shadow: #78A7BC 0px 5px;
+        }
+
+        .row-in .pink {
+            margin: 0% 0% 0% 1%;
+            padding: 3% 15% 3% 10%;
+        }
+
+        .row-in .white {
+            margin: 0% 0% 0% 1%;
+            padding: 3% 10% 3% 10%;
+        }
+
+        .row-in .pink-light {
+            margin: 0% 0% 0% 1%;
+            padding: 3% 10% 3% 10%;
+        }
+
+        .row-in .yellow {
+            margin: 0% 0% 0% 1%;
+            padding: 3% 10% 3% 10%;
+        }
+
+        .padding .pink {
+            margin: 0% 0% 0% 1%;
+            padding: 3% 10% 3% 10%;
+        }

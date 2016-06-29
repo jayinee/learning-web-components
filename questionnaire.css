@@ -1,0 +1,44 @@
+﻿body {
+    background: #fff0e6;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.main {
+    margin: 7em auto 0;
+    width: 44%;
+}
+
+    .main h4 {
+        font-size: 2em;
+        text-align: center;
+        color: black;
+        font-family: Arial;
+    }
+
+.lable-2 {
+    padding: 14px;
+    width: 94%;
+    font-size: 1em;
+    margin: 18px 0px;
+    color: #666666;
+    background: none;
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+    background: #ffffff;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    border-left: 6px solid #fff;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+}
+
+input[type=text] {
+    width: 70%;
+    height: 30px;
+}
+

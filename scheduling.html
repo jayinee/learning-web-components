@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="scheduling.css" rel="stylesheet" />
+</head>
+<body>
+    <h4 class="h4">Scheduling Form</h4>
+    <div class="main">
+        <form>
+            <div>
+                <div class="lable-2">
+                    <div>
+                        <label>Time</label>
+                        <input type="time" style="padding: 10px 5px; width: 680px;">
+                    </div>
+                    <p>&nbsp;</p>
+                    <div>
+                        <label>Time Zone Selection</label>
+                        <br />
+                        <select style="padding: 10px 5px;width:695px;">
+                            <option timezoneid="1" gmtadjustment="GMT-12:00" value="-12">(GMT-12:00) International Date Line West</option>
+                            <option timezoneid="2" gmtadjustment="GMT-11:00" value="-11">(GMT-11:00) Midway Island, Samoa</option>
+                            <option timezoneid="3" gmtadjustment="GMT-10:00" value="-10">(GMT-10:00) Hawaii</option>
+                            <option timezoneid="4" gmtadjustment="GMT-09:00" value="-9">(GMT-09:00) Alaska</option>
+                            <option timezoneid="5" gmtadjustment="GMT-08:00" value="-8">(GMT-08:00) Pacific Time (US & Canada)</option>
+                            <option timezoneid="6" gmtadjustment="GMT-08:00" value="-8">(GMT-08:00) Tijuana, Baja California</option>
+                            <option timezoneid="7" gmtadjustment="GMT-07:00" value="-7">(GMT-07:00) Arizona</option>
+                            <option timezoneid="8" gmtadjustment="GMT-07:00" value="-7">(GMT-07:00) Chihuahua, La Paz, Mazatlan</option>
+                        </select>
+                    </div>
+
+                    <p>&nbsp;</p>
+                    <div>
+                        <label>Date Of Appointment</label>
+                        <input required="" type="date" class="form-control" placeholder="Date Of Appointment" onfocus="(this.type='date')" />
+                    </div>
+
+                    <div>
+                        <label>Email Id</label>
+                        <input type="text" class="text" value="your@email.com " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'your@email.com ';}">
+                    </div>
+
+                    <div>
+                        <label>Contact Number</label>
+                        <input type="text" class="text" value="Contact Number" onfocus="this.value = '';" onblur="    if (this.value == '') { this.value = 'Contact Number '; }">
+                    </div>
+
+                    <div>
+                        <label>Message</label>
+                        <textarea class="text" style="width:690px;"></textarea>
+                    </div>
+
+                </div>
+
+                <div class="clear"> </div>
+                <br />
+                <br />
+                <div class="submit">
+                    <input type="submit" onclick="myFunction()" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

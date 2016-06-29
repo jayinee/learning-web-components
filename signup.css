@@ -1,0 +1,152 @@
+﻿html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,address, em,q, s, samp, small, strike, strong,  nav ul, nav li,form,nav{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+   
+    background: #fff0e6;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.main {
+    margin: 7em auto 0;
+    width: 44%;
+}
+
+    .main h6 {
+        font-size: 3em;
+        text-align: center;
+        color: black;
+        font-family: Arial;
+    }
+
+    .main h2, .main h3 {
+        font-size: 1em;
+        text-align: center;
+        color: #fff;
+        padding: 1em 0;
+        font-family: 'Oxygen', sans-serif;
+    }
+
+    .main h3 {
+        font-size: 1em;
+        text-align: left;
+        font-family: 'Oxygen', sans-serif;
+    }
+
+
+
+.lable input[type="text"] {
+    padding: 15px;
+    font-size: 1.1em;
+    margin: 18px 0px;
+    color: #666666;
+    width: 87%;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    outline: none;
+    font-weight: 600;
+    margin-left: 3px;
+    background: #FFFFFF;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    border-left: 6px solid #fff;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+}
+
+.lable input[type="text"]:hover, .lable-2 input[type="text"]:hover, input[type="Password"]:hover, #active {
+        color: #DCDCDC;
+        border-left: 6px solid#ffa366;
+    }
+
+.lable-2 input[type="text"], input[type="Password"], input[type="date"] {
+    padding: 14px;
+    width: 94%;
+    font-size: 1em;
+    margin: 18px 0px;
+    border: none;
+    color: #666666;
+    cursor: pointer;
+    background: none;
+    float: left;
+    outline: none;
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+    background: #ffffff;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    border-left: 6px solid #fff;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+}
+
+.submit {
+    padding: 5px 4px;
+    text-align: center;
+}
+
+input[type=submit] {
+    padding: 17px 30px;
+    color: #fff;
+    float: right;
+    font-family: 'Oxygen', sans-serif;
+    background: #ffa366;
+    border: 1px solid #ffc299;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    outline: none;
+    width: 100%;
+    -webkit-appearance: none;
+}
+
+.submit input[type=submit]:hover {
+    background: #ffc299;
+    border: 1px solid #ffc299;
+}
+
+.col_1_of_2:first-child {
+    margin-left: 0;
+}
+
+.span_1_of_2 {
+    width: 49.7%;
+}
+
+.col_1_of_2 {
+    display: block;
+    float: left;
+    margin: 0 0 0 0.6%;
+}
+
+.col_1_of_f:first-child {
+    margin-left: 0;
+}
+
+.span_1_of_f {
+    width: 49.7%;
+}
+
+.col_1_of_f {
+    display: block;
+    float: left;
+    margin: 0 0 0 0;
+}
+
+

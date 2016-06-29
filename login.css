@@ -1,0 +1,157 @@
+﻿
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,address, strike, strong, sub, sup, tt, var,nav ul, nav li,form,nav{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+	
+    background:#fff0e6;
+	font-family: 'Oxygen', sans-serif;
+}
+.main{
+	margin:7em auto 0;
+	width:44%;
+}
+
+.main h4 {
+    font-size:3em;
+    text-align:center;
+    color:black;
+    font-family:Arial;
+}
+
+
+.lable input[type="text"] {
+	padding: 15px;
+	font-size: 1.1em;
+	margin: 18px 0px;
+	color: #666666;
+	width:87%;
+	cursor: pointer;
+	font-family: 'Oxygen', sans-serif;
+	outline: none;
+	font-weight: 600;
+	margin-left: 3px;
+	background: #FFFFFF;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	border-left: 6px solid #fff;
+	border-bottom: none;
+	border-right: none;
+	border-top: none;
+}
+.lable input[type="text"]:hover,.lable-2 input[type="text"]:hover,input[type="Password"]:hover,#active {
+    border-left:6px solid#ffa366;
+}
+.lable-2 input[type="text"],input[type="Password"] { 
+	padding: 14px;
+	width: 94%;
+	font-size: 1em;
+	margin: 18px 0px;
+	border:none;
+	color: #666666;
+	cursor: pointer;
+	background: none;
+	float: left;
+	outline: none;
+	font-weight: 700;
+	font-family: 'Oxygen', sans-serif;
+	background: #ffffff;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	border-left: 6px solid #fff;
+	border-bottom: none;
+	border-right: none;
+	border-top: none;
+}
+
+.submit{
+	padding:5px 4px;
+	text-align: center;
+}
+input[type=submit] {
+	padding: 17px 30px;
+	color: #fff;
+	float: right;
+	font-family: 'Oxygen', sans-serif;
+    background:#ffa366;
+	border: 1px none;
+	cursor: pointer;
+	font-size: 18px;
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	outline:none;
+	width: 100%;
+	-webkit-appearance: none;
+}
+.submit input[type=submit]:hover {
+	 background:#ffc299;
+	 border:1px solid #ffc299;
+}
+
+/*----start-responsive design-----*/
+@media (max-width:1024px){
+.col_1_of_2 {
+	margin: 0 0 0 3.6%;
+}
+.span_1_of_2 {
+	width: 47.7%;
+}
+.span_1_of_f {
+	width: 50%;
+}
+i.fb, i.tw {
+	margin-right: 1em;
+}
+.main {
+	width: 50%;
+}
+}
+@media (max-width:800px){
+.span_1_of_f {
+	width: 100%;
+}
+.col_1_of_f {
+	float:none;
+}
+.span_1_of_2 {
+	width: 100%;
+}
+.col_1_of_2 {
+	margin:0;
+}
+.lable-2 input[type="text"], input[type="Password"] {
+	padding: 14px;
+	width: 89%;
+}
+}
+@media (max-width:480px){
+.main {
+margin: 7em auto 0;
+width:70%;
+}
+}
+@media (max-width:320px){
+.main {
+	width:80%;
+}
+.lable input[type="text"] {
+	width: 83%;
+}
+.lable-2 input[type="text"], input[type="Password"] {
+	width: 84%;
+}
+}
+

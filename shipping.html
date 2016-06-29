@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <link href="shipping.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h4 class="h4">Shipping and Billing Address Form</h4>
+
+    <div class="main">
+        <form>
+                <div style="float: left; width:40%;">
+                    <h6>shipping address</h6>
+                    <div class="lable">
+                        <div class="col_1_of_2 span_1_of_2"><input type="text" class="text" value="First Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'First Name';}" id="active"></div>
+                        <div class="col_1_of_2 span_1_of_2"><input type="text" class="text" value="Last Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Last Name';}"></div>
+                        <div class="clear"> </div>
+                    </div>
+                    <div class="lable-2">
+                        <input type="text" class="text" value="AddressLine1" onfocus="this.value = '';" onblur="    if (this.value == '') { this.value = 'AddressLine1'; }">
+                        <input type="text" class="text" value="AddressLine2" onfocus="this.value = '';" onblur="    if (this.value == '') { this.value = 'AddressLine1'; }">
+                        <input type="text" class="text" value="City" onfocus="this.value = '';" onblur="    if (this.value == '') { this.value = 'City'; }">
+                        <input type="text" class="text" value="Country" onfocus="this.value = '';" onblur="    if (this.value == '') { this.value = 'Country'; }">
+
+                    </div>
+                    <div>
+                        <p>&nbsp;</p>
+                        <label style="font-family:Arial;font-size:larger;color:black;">Shipping Address & Billing Address are same</label>
+                        <br />
+                        <br />
+                        <input type="checkbox" name="yes" value="true" style="vertical-align:middle;font-size:xx-large;">please tick if yes
+
+                    </div>
+                    
+                    <!--<div class="submit">
+                        <input type="submit" onclick="myFunction()" value="Submit">
+                    </div>-->
+
+
+                    <div class="clear"> </div>
+                </div>
+
+
+                <div style="float: left; width:10%;">
+                    <p>&nbsp;</p>
+                </div>
+
+                <div style="float: left; width:40%;margin-left:5px;">
+                    <h6>Billing address</h6>
+                    <div class="lable">
+                        <div class="col_1_of_2 span_1_of_2"><input type="text" class="text" value="First Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'First Name';}" id="active"></div>
+                        <div class="col_1_of_2 span_1_of_2"><input type="text" class="text" value="Last Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Last Name';}"></div>
+                        <div class="clear"> </div>
+                    </div>
+                    <div class="lable-2">
+                        <input type="text" class="text" value="AddressLine1" onfocus="this.value = '';" onblur="    if (this.value == '') { this.value = 'AddressLine1'; }">
+                        <input type="text" class="text" value="AddressLine2" onfocus="this.value = '';" onblur="    if (this.value == '') { this.value = 'AddressLine1'; }">
+                        <input type="text" class="text" value="City" onfocus="this.value = '';" onblur="    if (this.value == '') { this.value = 'City'; }">
+                        <input type="text" class="text" value="Country" onfocus="this.value = '';" onblur="    if (this.value == '') { this.value = 'Country'; }">
+
+                    </div>
+                    <!--<div class="submit">
+                        <input type="submit" onclick="myFunction()" value="Submit">
+                    </div>-->
+                    <div class="clear"> </div>
+                    <br />
+                    <br />
+                    <div class="submit">
+                        <input type="submit" onclick="myFunction()" value="Submit">
+                    </div>
+                </div>
+
+           
+
+        </form>
+    </div>
+    
+</body>
+</html>

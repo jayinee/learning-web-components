@@ -1,0 +1,76 @@
+﻿
+html {
+  margin: 0;
+  font-size: 100%;
+}
+
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nav-a {
+  float: right;
+}
+
+
+.wrapper {
+  width: 80%;
+  margin: 2em auto;
+  padding: 2em;
+}
+
+button { /*Removes default style on Send Mail button*/
+  border: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: inherit; 
+  cursor: pointer;
+}
+
+h3:first-of-type {
+  margin-top: 3em;
+}
+
+.button {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: .5em 1.5em;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #4D94FF;
+  overflow: hidden;
+}
+
+.wrapper div:first-of-type { /* Styles Buy button */
+  background-color: #FF554D;
+}
+
+.wrapper div:first-of-type:hover { /* Styles Buy button */
+  background-color: #FFA74D;
+}
+
+.button:nth-child(1n+5) {
+  font-weight: 900;
+}
+
+.button:hover {
+  background-color: #4DCEFF;
+}
+
+.button:active {
+  color: #000000;
+}
+
+.button-sm {
+  padding: .5em 1em;
+}
+
+.button-md {
+  padding: 1em 1.5em;
+}
+
+.button-lg {
+  padding: 1.5em 3.5em;
+}
