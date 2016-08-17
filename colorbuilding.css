@@ -1,0 +1,115 @@
+﻿
+
+html {
+	height: 100%;
+}
+
+body {
+	/*background: linear-gradient(#FFB9DF, #FFB990), no-repeat;*/
+	font-family: 'Slabo 27px', serif;
+	font-size: 62.5%;		
+	margin: 0;
+}
+
+.nav-a {
+  font-size: 2em;
+  left: 1em;
+  position: absolute;
+  top: 1em;
+  color: white;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+input, label, a, button {
+	font-size: 1.6em;
+}
+
+h1 {
+	font-size: 400%;
+	width: 100%;
+	text-align: center;
+}
+
+/*Center container*/
+
+.container {
+	background: linear-gradient(17deg, #C5BEE4, #FFFAE0);  
+	border: 7px solid #FBFBFB;
+	border-radius: 1em;
+	height: 40em;
+	margin: 0 auto;
+	width: 60%;
+}
+
+/*Float form and color block*/
+
+form, .container > div:last-child {
+	float: left;
+	padding: 1em;
+	width: 50%;
+}
+
+form > div {
+	color: black;
+	margin-top: 1em;
+	text-align: center;
+}
+
+form input {
+	margin-left: 1em;
+}
+
+form label {
+	display: inline-block;
+	width: 20%;
+}
+
+textarea {
+	
+	border: 1px solid whitesmoke;
+	width: 100%;
+}
+
+
+
+
+@media (min-width: 2000px) {
+
+	body {
+		font-size: 110%;		
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	body {
+		background-color: #D4D1E2;
+	}
+
+	.container {
+		border: none;
+		height: 100%;
+		width: 60%;
+	}
+
+	form, .container > div:last-child {
+		display: block;
+		float: none;
+		margin: 0 auto;
+	 	width: 100%;
+	}
+
+
+}
+
+@media (max-width: 425px) {
+
+	.container {
+		width: 100%;
+	}
+
+}
